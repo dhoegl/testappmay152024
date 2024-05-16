@@ -2,7 +2,7 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import NavLink from "./navbarlink";
-// import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import MenuOverlay from "./menuoverlay";
 
 const navLinks = [
@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <h1 className="text-white">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700">
-              <span className="text-white">http</span>Arbaz
+              <span className="text-white">LOGO</span> Here
             </span>
           </h1>
         </Link>

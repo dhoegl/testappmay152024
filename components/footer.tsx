@@ -1,11 +1,13 @@
 import React from "react";
 
 const Footer = () => {
-  return (
-    <div className="bg-blackish border  border-[#33353F]  text-gray-500 text-center py-4 pb-16 md:pb-4">
-      Copyright © My Company <br /> All Rights Reserved 2024.
-    </div>
-  );
+    return (
+        <div className="flex">
+            <footer className="flex bottom-0 place-content-center items-center w-full h-14 px-4 text-white bg-black fixed nav">
+                Copyright ©2024<br />My Company
+            </footer>
+        </div>
+    );
 };
 
 export default Footer;

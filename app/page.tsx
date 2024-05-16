@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <>
     <main>
-    <Navbar />
+    {/* <Navbar /> */}
         <div className="container mt-24 mx-auto px-12 py-4">
-          {/* <HeroSection />
-          <AchievementsSection />
-          <AboutSection />
-          <ProjectSection />
-          <EmailSection /> */}
+          {/* <HeroSection /> */}
+          {/* <AchievementsSection /> */}
+          {/* <AboutSection /> */}
+          {/* <ProjectSection /> */}
+          {/* <EmailSection /> */}
         </div>
         <Footer />
 
